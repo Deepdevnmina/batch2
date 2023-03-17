@@ -10,7 +10,7 @@ public class Customer {
 	private int marks;
 	private Date doe;
 	
-	public Customer() {}
+	public Customer() {}//This is my no-arg constructors
 	
 	public Customer(String name, String email, int age, String address, int marks,Date doe) {
 		super();
@@ -21,7 +21,7 @@ public class Customer {
 		this.marks = marks;
 		this.doe=doe;
 	}
-
+// These are all my getters and setters.
 	public String getName() {
 		return name;
 	}
